@@ -13,6 +13,14 @@ app.use(express.json());
 // Connect to database
 connectDB();
 
+// Route files
+const users = require('./routes/users');
+const orders = require('./routes/orders');
+
+// Mount routes
+app.use('/api/users', users);
+app.use('/api/orders', orders);
+
 const PORT = process.env.PORT || 4000;
 
 app.listen(4000, () => {
