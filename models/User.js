@@ -10,6 +10,10 @@ const UserSchema = new mongoose.Schema({
 		required: true
 	},
 	noOfOrders: {
+		type: Number,
+		default: 0
+	},
+	avgBillValue: {
 		type: Number
 	}
 });
