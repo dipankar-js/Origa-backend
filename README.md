@@ -1,6 +1,6 @@
 # Origa-backend
 
-[API Documentation](documenter.getpostman.com/view/7891855/SztK1Q1x?version=latest).
+[API Documentation](https://documenter.getpostman.com/view/7891855/SztK1Q1x?version=latest).
 
 ### How to run the API
 <ul>
